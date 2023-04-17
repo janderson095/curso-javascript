@@ -1,0 +1,23 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+.center {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.c1 {
+    background-color: blue;
+    padding: 90px;
+    border-radius: 30px;
+}
+
+
