@@ -1,0 +1,17 @@
+Fazer os exercícios com a Estilização em CSS, fazer todos na mesma página, postar o arquivo indexNomealuno.html e scriptNomeAluno.js. Das oito atividades, realizar no mínimo seis delas.
+
+1 - Escreva uma função em JavaScript que mostre na tela a mensagem “Bom dia, Mundo!!!”.
+
+2- Escreva uma função que retorne o cubo de um número fornecido pelo usuário.
+
+3- Escreva uma função em JavaScript que realize a conversão de uma temperatura fornecida em graus Fahrenheit (F) para Celsius (C).Dica: para converter uma temperatura em F para C, subtraia 32 da temperatura e multiplique o resultado por 0,5556 (ou 5/9).
+
+4- Escreva uma função que retorne a área de um triângulo, a partir dos valores de base e altura fornecidos.
+
+5- Escreva uma função que encontre a área e o perímetro de um círculo, de acordo com o raio fornecido.
+
+6- Crie uma função que calcula 5% de desconto retornando o valor do desconto.
+
+7- Crie uma função que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.
+
+8- Um novo modelo de carro, super econômico foi lançado. Ele faz 20 km com 1 litro de combustível. Cada litro de combustível custa R$ 5,00.Faça um programa que pergunte ao usuário quanto de dinheiro ele tem e em seguida diga quantos litros de combustível ele pode comprar e quantos kilometros o carro consegue andar com este tanto de combustível.Seu script será usado no computador de bordo do carro.
