@@ -4,51 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lista de Exerciocios</title>
+    <link rel="stylesheet" href="../curso-javascript/exercicios.css">
+    <title>Lista de Exercicios</title>
 </head>
 <body>
-    <!-- <h3>Exercicio 1</h3>
-    <button onclick="bomDia()">Clique para Desejar Bom dia ao Mundo</button> -->
+    <div id="container">
+        <div class="style">
+            <h3>Exercicio 1</h3>
+            <p>Bom dia</p>
+            <button onclick="bomDia()">Deseje Bom dia ao Mundo</button>
+        </div>
 
-    <!-- <h3>Exerciocio 2</h3>
-    <h3>Calcular o Cubo de um numero</h3>
-    <input type="text" id="num">
-    <button onclick="calcularCubo()">Calcular cubo</button>
-    <h3 id="resultado"></h3> -->
+        <div class="style">
+            <h3>Exercicio 2</h3>
+            <p>Calcular o Cubo de um Numero</p>
+            <input type="text" id="num">
+            <button onclick="calcularCubo()">Calcular cubo</button>
+            <h4 id="resultado2"></h4>
+         </div>  
 
-    <!-- <h3>Exerciocio 3</h3>
-    <h3>Conversão de Temperaturas</h3>
-    <input type="text" id="tempF">
-    <button onclick="converterTemperatura()">Converter</button>
-    <h3 id="resultado"></h3> -->
 
-    <!-- <h3>Exerciocio 4</h3>
-    <p>Valor da Base</p>
-    <input type="text" id="base">
-    <p>Valor da Altura</p>
-    <input type="text" id="altura">
-    <button onclick="calcularArea()">Calcular área</button>
-    <h3 id="resultado"></h3> -->
+         <div class="style">
+            <h3>Exercicio 3</h3>
+            <p>Conversão de Temperaturas de F para C</p>
+            <input type="text" id="tempF">
+            <button onclick="converterTemperatura()">Converter</button>
+            <h4 id="resultado3"></h4>
+        </div>
 
-    <!-- <h3>Exerciocio 5</h3>
-    <p>Valor do Raio</p>
-    <input type="text" id="raio">
-    <button onclick="calcular()">Calcular</button>
-    <h3 id="resultado"></h3> -->
+        <div class="style">
+            <h3>Exercicio 4</h3>
+            <p>Area do Triângulo</p><br>
+            <p>Valor da Base</p>
+            <input type="text" id="base">
+            <p>Valor da Altura</p>
+            <input type="text" id="altura">
+            <button onclick="calcularArea()">Calcular área</button>
+            <h4 id="resultado4"></h4>
+        </div>
 
-    <!-- <h3>Exerciocio 6</h3>
-    Preco em R$:
-    <input type="text" id="preco">
-    <button onclick="calcularDesconto()">Calcular desconto</button>
-    <h3 id="resultado"></h3> -->
+        <div class="style">
+            <h3>Exercicio 5</h3>
+            <p>Area e perimetro de um Circulo</p><br>
+            <p>Valor do Raio</p>
+            <input type="text" id="raio">
+            <button onclick="calcularCirculo()">Calcular</button>
+            <h4 id="resultado5"></h4>
+        </div>
+
+        <div class="style">
+            <h3>Exercicio 6</h3>
+            <p>Desconto no preço</p><br>
+            <p>Preco em R$:</p>
+            <input type="text" id="preco">
+            <button onclick="calcularDesconto()">Calcular Desconto</button>
+            <h4 id="resultado6"></h4>
+        </div>
+        
+        <div class="style">
+            <h3>Exercicio 7</h3>
+            <p>Maior ou Menor de Idade</p><br>
+            <p>Insira o Ano que você Nasceu:</p>
+            <input type="text" id="ano">
+            <button onclick="calcularIdade()">Verificar Idade</button>
+            <h4 id="resultado7"></h4>
+        </div>
+
+        <div class="style">
+            <h3>Exercicio 8</h3>
+            <p>Combustivel e km/l</p><br>
+            <label for="dinheiro">Quanto dinheiro você tem?</label><br>
+            <input type="text" id="dinheiro">
+            <button onclick="calcularLitros()">Calcular</button>
+            <h4 id="litros"></h4>
+            <h4 id="quilometros"></h4>
+        </div>
+
+        <script src="../curso-javascript/exerciocios.js"></script>
+    </div>
     
-    <h3>Exerciocio 8</h3>
-    <label for="dinheiro">Quanto dinheiro você tem?</label><br>
-    <input type="text" id="dinheiro">
-    <button onclick="calcular()">Calcular</button>
-    <h3 id="litros"></h3>
-    <h3 id="quilometros"></h3>
-
-    <script src="../curso-javascript/exerciocios.js"></script>
 </body>
 </html>
