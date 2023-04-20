@@ -12,6 +12,7 @@ function entrar(){
 }
 
 
+
 // var notas = new Array(5);
 // notas[0] = 8.5;
 // notas[1] = 5.0;

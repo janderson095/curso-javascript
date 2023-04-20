@@ -1,0 +1,21 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+.exercicio1 {
+    background-color: rgb(132, 192, 182);
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+}
+.exercicio {
+    background-color: rgb(132, 192, 182);
+    padding: 40px;
+    margin: 20px;
+   font-size: larger;
+}
+
+#bemVindo {
+    background-color: rgba(223, 128, 202, 0.356);
+    padding: 10px;
+    width: 180px;
+    border-radius: 12px;
+}
