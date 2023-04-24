@@ -10,22 +10,21 @@
 <body>
     <div id="container">
 
-        <div class="exercicio1">
-            <h1 id="area">
-                Bem-Vindo!
-            </h1><br>
-            <button id="bemVindo" onclick="entrar()">Acessar</button><br>
+        <br><h2 id="area">Bem-vindo!</h2>
+        <button onclick="entrar()" id="btnacessar">Acessar</button><br><br>
+        <div id="cxNumero">
+            <label for="">Digite o primeiro número:</label><br>
+            <input type="text" id="num01"><br>
+            <label for="">Digite o segundo número:</label><br>
+            <input type="text" id="num02"><br>
         </div>
-
-        <div class="exercicio">
-            <p class="questao"> <strong>Exercicio 1:</strong> Criar um Array que receba 2 números, calcular as 4 operações matemática básicas com esses dois números. <strong>Exibir o resultado na tela.</strong></p><br>
-
-            <form id="calculadora">
-                <input type="number" name="num1" placeholder="Digite o primeiro número"><br> <!-- placeholder para reservar um lugar (texto dentro da caixa de texto input)-->
-                <input type="number" name="num2" placeholder="Digite o segundo número"><br>
-                <button id="calc" type="submit"> Calcular </button>
-            </form>
-            <div id="resultado"></div>     
+        <br>
+        <button class="btnCalc" id="somar" onclick="calcular(this.id)" >Somar</button>
+        <button class="btnCalc" id="subtrair" onclick="calcular(this.id)">Subtrair</button>
+        <button class="btnCalc" id="multiplicar" onclick="calcular(this.id)">Multiplicar</button>
+        <button class="btnCalc" id="dividir" onclick="calcular(this.id)">Dividir</button><br>
+        <br>
+        <input type="text" id="resultado" value="resultado" disabled="disabled">
                  
         </div>
 

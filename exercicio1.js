@@ -11,27 +11,54 @@ function entrar(){
     }
 }
 
-// exercicio 1
-// const form = document.getElementById("calculadora");
-// const resultadoDiv = document.getElementById("resultado");
+var area = document.getElementById("area");
+function entrar(){
+    var nome = prompt("Digite seu nome:");
+    if(nome==""|| nome== null){
+        alert("Por favor preencher todos os campos!");
+        area.innerHTML = "Clique no botão para acessar...";
+    }else{
+        area.innerHTML = "Bem-vindo "+nome
+    }
+}
 
-// form.addEventListener("submit", function(event) {
-//   event.preventDefault(); // Evita o envio padrão do formulário
-//   var num1 = parseFloat(form.num1.value); // Obtém o valor do primeiro número
-//   var num2 = parseFloat(form.num2.value); // Obtém o valor do segundo número
+function somar(arrayNumero){
+    let resultado = arrayNumero[0] + arrayNumero[1];
+    document.getElementById("resultado").value=resultado;
+}
 
-//   // Realiza os cálculos
-//   var soma = num1 + num2;
-//   var subtracao = num1 - num2;
-//   var multiplicacao = num1 * num2;
-//   var divisao = num1 / num2;
+function subtrair(arrayNumero){
+    let resultado = arrayNumero[0] - arrayNumero[1];
+    document.getElementById("resultado").value=resultado;
+}
 
-//   // Exibe os resultados na tela
-//   resultadoDiv.innerHTML = `
-//     <p>Soma: ${soma}</p>
-//     <p>Subtração: ${subtracao}</p>
-//     <p>Multiplicação: ${multiplicacao}</p>
-//     <p>Divisão: ${divisao}</p>
-//   `;
-// });
+function multiplicar(arrayNumero){
+    let resultado = arrayNumero[0] * arrayNumero[1];
+    document.getElementById("resultado").value=resultado;
+}
+
+function dividir(arrayNumero){
+    let resultado = arrayNumero[0] / arrayNumero[1];
+    document.getElementById("resultado").value=resultado;
+}
+
+function calcular(qualquerNome){
+    let arrayNumero = new Array(2);
+     arrayNumero[0] = parseInt(document.getElementById("num01").value);
+     arrayNumero[1] = parseInt(document.getElementById("num02").value);
+    if(qualquerNome=="somar"){
+        somar(arrayNumero);
+    }
+
+    if(qualquerNome=="subtrair"){
+        subtrair(arrayNumero);
+    }
+
+    if(qualquerNome=="multiplicar"){
+        multiplicar(arrayNumero);
+    }
+    if(qualquerNome=="dividir"){
+        dividir(arrayNumero);
+    }
+}
 

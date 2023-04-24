@@ -158,6 +158,11 @@ function mostrarNumeros(){
     document.getElementById("resultado66").value = arrayE[10];
 }
 
+// Lista para reforço do aprendizado de array, fazer no mesmo arquivo (array.html e array.js), se possível acrescentar estilização. Este exercício não precisa ser entregue, é somente para aprendizado!
+// Ler 5 elementos de um array, chama-lo de arrayA. Construir um array chamado arrayB de mesmo tipo, observando a seguintes lei de formação: “Todo elemento de B deverá ser o quadrado do elemento de A correspondente”. Apresentar os dois arrays A e B.
+// Ler dois arrays D e E com 5 elementos cada. Construir um  arrayF, sendo esta a junção dos dois outros arrays. Desta forma, F deverá ter o dobro de elementos, ou seja, 10.Apresentar o arrayF.
+// Ler duas matrizes do tipo vetor, sendo G com 5 elementos e H com 6 elementos. Construir uma matriz I, sendo esta a junção das duas outras matrizes. Desta forma, I deverá ter a capacidade de armazenar 11 elementos. Apresentar a matriz I.
+
 
 
 
