@@ -5,6 +5,8 @@ function bomDia() {
   }
 
 
+
+
 function calcularCubo() {
     var num = parseFloat(document.getElementById("num").value);
     var cubo = num*num*num;
@@ -12,11 +14,15 @@ function calcularCubo() {
   }
 
 
+
+
 function converterTemperatura() {
     var tempF = parseFloat(document.getElementById("tempF").value);
     var tempC = (tempF - 32) * 0.5556;
     document.getElementById("resultado3").innerHTML = (tempF + "°F é equivalente a " + tempC + "°C");
   }
+
+
 
 
   function calcularArea() {
@@ -27,6 +33,8 @@ function converterTemperatura() {
   }
 
 
+
+
 function calcularCirculo() {
     var raio = parseFloat(document.getElementById("raio").value);
     var area = (3.1415 * raio * raio ).toFixed(2);
@@ -35,11 +43,15 @@ function calcularCirculo() {
   }
 
 
+
+
 function calcularDesconto() {
     var preco = parseFloat(document.getElementById("preco").value);
     var desconto = preco * 0.05;
     document.getElementById("resultado6").innerHTML = ("O desconto de 5% será de R$ " + desconto);
   }
+
+
 
 
 function calcularIdade() {
@@ -54,6 +66,8 @@ function calcularIdade() {
     document.getElementById("resultado7").innerHTML = ("Você tem " + conta + " anos, portanto é maior de idade.")
     }
 }
+
+
 
 
   function calcularLitros() {

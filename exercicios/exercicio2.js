@@ -40,7 +40,7 @@ function subtrairAB(){
     arrayB[9] = parseInt(document.getElementById("numero20").value);
     console.log(arrayB);
     
-    let arrayC = new Array(20)
+    let arrayC = new Array(10)
     arrayC[0] = (arrayA[0] - arrayB[0]);
     arrayC[1] = (arrayA[1] - arrayB[1]);
     arrayC[2] = (arrayA[2] - arrayB[2]);
