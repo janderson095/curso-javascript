@@ -4,25 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../exercicios/exercicio6.css">
     <title>Document</title>
 </head>
 <body>
-    <p>Entrada de Valor para Tabuada</p>
-    <input type="number" id="numero" placeholder="Digite um Numero"><br>
-    <button onclick="calcular()">Resultado</button><br><br>
-
-    <p>Tabuada</p>
-    <input type="number" id="resultado0" disabled="disabled"><br>
-    <input type="number" id="resultado1" disabled="disabled"><br>
-    <input type="number" id="resultado2" disabled="disabled"><br>
-    <input type="number" id="resultado3" disabled="disabled"><br>
-    <input type="number" id="resultado4" disabled="disabled"><br>
-    <input type="number" id="resultado5" disabled="disabled"><br>
-    <input type="number" id="resultado6" disabled="disabled"><br>
-    <input type="number" id="resultado7" disabled="disabled"><br>
-    <input type="number" id="resultado8" disabled="disabled"><br>
-    <input type="number" id="resultado9" disabled="disabled"><br>
-    <input type="number" id="resultado10" disabled="disabled"><br>
+    <body>
+        <div id="boasVindas">
+            <h1 id="texto">Seja bem vindo!!!</h1>
+        </div>
+    
+        <div>-
+            <h3 id="descExercicio">
+                Construir um programa que calcule a tabuada de um valor qualquer de 1 até 10 e
+                armazene os resultados em uma matriz A de uma dimensão. Apresentar os elementos da matriz A.
+            </h3>
+        </div>
+    
+        <div class="container">
+            <div class="card">
+                <h3>Entrada</h3>
+                <label>Informe 1 número para calcular uma tabuada</label><br>
+                <input type="text" id="num01"><br><br>
+                <button id="btnEnviar" onclick="executar()">Calcular Tabuada</button>
+            </div>        
+            
+            <div class="card">
+                
+                <h3>Resultados</h3>
+                <label id="lbl00">tabuada</label> <input type="text" id="res00" disabled="disabled"><br><br>
+                <label id="lbl01">tabuada</label> <input type="text" id="res01" disabled="disabled"><br><br>
+                <label id="lbl02">tabuada</label> <input type="text" id="res02" disabled="disabled"><br><br>
+                <label id="lbl03">tabuada</label> <input type="text" id="res03" disabled="disabled"><br><br>
+                <label id="lbl04">tabuada</label> <input type="text" id="res04" disabled="disabled"><br><br>
+                <label id="lbl05">tabuada</label> <input type="text" id="res05" disabled="disabled"><br><br>
+                <label id="lbl06">tabuada</label> <input type="text" id="res06" disabled="disabled"><br><br>
+                <label id="lbl07">tabuada</label> <input type="text" id="res07" disabled="disabled"><br><br>
+                <label id="lbl08">tabuada</label> <input type="text" id="res08" disabled="disabled"><br><br>
+                <label id="lbl09">tabuada</label> <input type="text" id="res09" disabled="disabled"><br><br>
+                <label id="lbl10">tabuada</label> <input type="text" id="res10" disabled="disabled"><br><br>
+            </div>
+        </div>
 
     <!-- Tabuada do número: <input id="num" type="number"> <br />
     <button onclick="tabuada()">Exibir</button><br />
