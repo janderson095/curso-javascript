@@ -1,0 +1,32 @@
+<!-- Criar uma página que receba um nome e a idade(número inteiro) do usuário;
+Crie uma função em javascript para verificar através da idade informada qual fase da vida a pessoa se encontra;
+Mostrar o resultado em uma div;
+Fases da Vida Humana:
+Criança - até 11 anos de idade;
+Adolescente - dos 12 até 20 anos de idade;
+Adulto - dos 21 até 65 anos de idade;
+Idoso - 65 anos ou mais; -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Fases da Vida</title>
+</head>
+<body>
+
+    <h2>Fases da Vida</h2><br>
+    <label for="">Digite o Seu nome:</label>
+    <input type="text" nome="nome" id="nome" placeholder="Exemplo: Fulano"><br><br>
+
+    <label for="">Digite a Sua idade:</label>
+    <input type="text" nome="idade" id="idade" placeholder="Exemplo: 33"><br><br>
+    <button class="btnCalc" id="calcular" onclick="calcular()">Calcular</button>
+    <div id="resultado"></div>
+
+    <script src="exercicio7.js"></script>
+</body>
+</html>
