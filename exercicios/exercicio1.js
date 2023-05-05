@@ -1,18 +1,5 @@
 var area = document.getElementById("area");
 function entrar(){
-    var nome = prompt("Digite o seu nome");
-    if(nome=="" || nome==null){
-        alert("Por favor Preencher todos os Campos!");
-        area.innerHTML = "Clique no botão para acessar..."
-    }
-
-    else{
-        area.innerHTML = "Bem-Vindo " +nome
-    }
-}
-
-var area = document.getElementById("area");
-function entrar(){
     var nome = prompt("Digite seu nome:");
     if(nome==""|| nome== null){
         alert("Por favor preencher todos os campos!");

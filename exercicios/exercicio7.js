@@ -1,27 +1,45 @@
-let nome = [];
-let idade = [];
+var area = document.getElementById("area");
 
-
-function calcular() {
-   nome = document.getElementById("nome").value;
-   idade = parseInt.getElementById("idade").value;
-  
-   
-
-    if (idade<= 11 ) {
-        alert("O "+nome+" é uma Criança");
-    }
-    
-    else if(resultado >=12 && resultado <20) {
-            alert("O "+nome+" é um Adolescente");
-    }
-    
-    else if(resultado >=21 && resultado <65) {
-        alert("O "+nome+" é um Adulto");
+function entrar(){
+    var nome = prompt("Digite o seu nome");
+    if(nome=="" || nome==null){
+        alert("Por favor Preencher todos os Campos!");
+        area.innerHTML = "Clique no botão para acessar..."
     }
 
-    else if(resultado >65) {
-        alert("O "+nome+" é um Idoso");
+    else{
+        area.innerHTML = "Bem-Vindo " +nome
     }
-
 }
+
+    function verificarFase() {
+        //obtém os valores dos campos de entrada
+        let nome = document.getElementById("nome").value;
+        let idade = parseInt(document.getElementById("idade").value);
+      
+        //verifica a fase da vida baseado na idade informada
+        let fase = "";
+
+        if (idade <= 11) {
+          fase = "Criança";
+        } 
+       
+        else if (idade >= 12 && idade <= 20) {
+          fase = "Adolescente";
+        } 
+        
+        else if (idade >= 21 && idade <= 65) {
+          fase = "Adulto";
+        } 
+        
+        else if (idade >= 65) { 
+          fase = "Idoso";
+        }
+      
+        //exibe o resultado na div
+        let resultado = document.getElementById("resultado");
+        resultado.innerHTML = `${nome} tem ${idade} anos, e está na fase da vida: ${fase}.` ;
+      }
+      
+
+      //(idade >= 65)
