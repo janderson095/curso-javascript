@@ -4,6 +4,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    /* grid-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); */
 }
 
 .foto {
@@ -11,16 +14,14 @@
     height: 50px;
     margin: 10px;
     border-radius: 5px;
-
     box-shadow: 3px 3px 3px #000000aa;
-
     background-color: #ff002b;
-
     margin-bottom: 20px;
 
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #FFF;
+    align-items: center;
 }
 
 h1 {

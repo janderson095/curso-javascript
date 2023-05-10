@@ -163,6 +163,8 @@ function mostrarNumeros(){
 // Ler dois arrays D e E com 5 elementos cada. Construir um  arrayF, sendo esta a junção dos dois outros arrays. Desta forma, F deverá ter o dobro de elementos, ou seja, 10.Apresentar o arrayF.
 // Ler duas matrizes do tipo vetor, sendo G com 5 elementos e H com 6 elementos. Construir uma matriz I, sendo esta a junção das duas outras matrizes. Desta forma, I deverá ter a capacidade de armazenar 11 elementos. Apresentar a matriz I.
 
+// aula do dia 18-abril
+
 
 
 
