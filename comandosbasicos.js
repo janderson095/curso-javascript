@@ -10,10 +10,10 @@
 // "verificação do sistema de entrada type numer"
 
 
-// var a = 10/2;                     // valor de divisão 
-// document.write(a);                // document.write é para poder "imprimir" o valor na tela 
+// var a = 10/2;                     // valor de divisão
+// document.write(a);                // document.write é para poder "imprimir" o valor na tela
 // a = a.toFixed (2);                // numeros de casas fixas apos arredondar
-// document.write ("<br>"+a);  
+// document.write ("<br>"+a);
 
 
 //  Módulo ou Resto da Divisão(%)
@@ -22,7 +22,7 @@
 // var c = a%b;
 // document.write (" O resto da divisão de "+a+" dividido por "+b+ " é = "+c);
 
-// Relacionais 
+// Relacionais
 // var a = 5;
 // var b = 6;
 // alert (a<b);

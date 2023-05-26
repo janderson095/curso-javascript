@@ -1,50 +1,50 @@
 var area = document.getElementById("area");
-function entrar(){
+function entrar() {
     var nome = prompt("Digite seu nome:");
-    if(nome==""|| nome== null){
+    if (nome == "" || nome == null) {
         alert("Por favor preencher todos os campos!");
         area.innerHTML = "Clique no botão para acessar...";
-    }else{
-        area.innerHTML = "Bem-vindo "+nome
+    } else {
+        area.innerHTML = "Bem-vindo " + nome
     }
 }
 
-function somar(arrayNumero){
+function somar(arrayNumero) {
     let resultado = arrayNumero[0] + arrayNumero[1];
-    document.getElementById("resultado").value=resultado;
+    document.getElementById("resultado").value = resultado;
 }
 
-function subtrair(arrayNumero){
+function subtrair(arrayNumero) {
     let resultado = arrayNumero[0] - arrayNumero[1];
-    document.getElementById("resultado").value=resultado;
+    document.getElementById("resultado").value = resultado;
 }
 
-function multiplicar(arrayNumero){
+function multiplicar(arrayNumero) {
     let resultado = arrayNumero[0] * arrayNumero[1];
-    document.getElementById("resultado").value=resultado;
+    document.getElementById("resultado").value = resultado;
 }
 
-function dividir(arrayNumero){
+function dividir(arrayNumero) {
     let resultado = arrayNumero[0] / arrayNumero[1];
-    document.getElementById("resultado").value=resultado;
+    document.getElementById("resultado").value = resultado;
 }
 
-function calcular(qualquerNome){
+function calcular(qualquerNome) {
     let arrayNumero = new Array(2);
-     arrayNumero[0] = parseInt(document.getElementById("num01").value);
-     arrayNumero[1] = parseInt(document.getElementById("num02").value);
-    if(qualquerNome=="somar"){
+    arrayNumero[0] = parseInt(document.getElementById("num01").value);
+    arrayNumero[1] = parseInt(document.getElementById("num02").value);
+    if (qualquerNome == "somar") {
         somar(arrayNumero);
     }
 
-    if(qualquerNome=="subtrair"){
+    if (qualquerNome == "subtrair") {
         subtrair(arrayNumero);
     }
 
-    if(qualquerNome=="multiplicar"){
+    if (qualquerNome == "multiplicar") {
         multiplicar(arrayNumero);
     }
-    if(qualquerNome=="dividir"){
+    if (qualquerNome == "dividir") {
         dividir(arrayNumero);
     }
 }

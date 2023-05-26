@@ -1,13 +1,13 @@
 var area = document.getElementById("area");
-function entrar(){
+function entrar() {
     var nome = prompt("Digite o seu nome");
-    if(nome=="" || nome==null){
+    if (nome == "" || nome == null) {
         alert("Por favor Preencher todos os Campos!");
         area.innerHTML = "Clique no botão para acessar..."
     }
 
-    else{
-        area.innerHTML = "Bem-Vindo " +nome
+    else {
+        area.innerHTML = "Bem-Vindo " + nome
     }
 }
 
@@ -114,7 +114,7 @@ function entrar(){
 
 
 
-function mostrarNumeros(){
+function mostrarNumeros() {
 
     var arrayC = new Array(5);
     arrayC[0] = parseInt(document.getElementById("numero1").value);
@@ -122,8 +122,8 @@ function mostrarNumeros(){
     arrayC[2] = parseInt(document.getElementById("numero3").value);
     arrayC[3] = parseInt(document.getElementById("numero4").value);
     arrayC[4] = parseInt(document.getElementById("numero5").value);
-    
-    
+
+
     var arrayD = new Array(6);
     arrayD[0] = parseInt(document.getElementById("numero11").value);
     arrayD[1] = parseInt(document.getElementById("numero22").value);
@@ -131,7 +131,7 @@ function mostrarNumeros(){
     arrayD[3] = parseInt(document.getElementById("numero44").value);
     arrayD[4] = parseInt(document.getElementById("numero55").value);
     arrayD[5] = parseInt(document.getElementById("numero66").value);
-    
+
     var arrayE = new Array(11)
     arrayE[0] = arrayC[0];
     arrayE[1] = arrayC[1];

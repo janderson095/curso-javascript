@@ -1,4 +1,8 @@
-* {margin: 0; padding: 0; box-sizing: border-box;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     overflow: hidden;
@@ -19,5 +23,3 @@ body {
     padding: 90px;
     border-radius: 30px;
 }
-
-

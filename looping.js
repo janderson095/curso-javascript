@@ -30,10 +30,10 @@
 
 
 let soma = 0;
-for (i=0; i <= 500; i++) {
-    let verifica = i % 2;
-    if (verifica == 0) {
-        soma = soma + i;
+for (i = 0; i <= 500; i++) {
+  let verifica = i % 2;
+  if (verifica == 0) {
+    soma = soma + i;
   }
 }
-document.write("A somatório dos valores pares de 1 até 500 é: ", +soma+ "<br>" );
+document.write("A somatório dos valores pares de 1 até 500 é: ", +soma + "<br>");

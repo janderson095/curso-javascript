@@ -65,5 +65,5 @@ function resultadoInvertido() {
     document.getElementById("resultado18").value = arrayB[17];
     document.getElementById("resultado19").value = arrayB[18];
     document.getElementById("resultado20").value = arrayB[19];
-    
+
 }

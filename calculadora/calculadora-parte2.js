@@ -1,6 +1,6 @@
 function somar() {
-    let numero1 = parseInt (document.getElementById("num1").value);
-    let numero2 = parseInt (document.getElementById("num2").value);
+    let numero1 = parseInt(document.getElementById("num1").value);
+    let numero2 = parseInt(document.getElementById("num2").value);
     let resultado = numero1 + numero2;
     // alert("O resultado da soma é = " +resultado);
     document.getElementById("resultado").value = resultado
@@ -9,24 +9,24 @@ function somar() {
 }
 
 function subtrair() {
-    let numero1 = parseInt (document.getElementById("num1").value);
-    let numero2 = parseInt (document.getElementById("num2").value);
+    let numero1 = parseInt(document.getElementById("num1").value);
+    let numero2 = parseInt(document.getElementById("num2").value);
     let resultado = numero1 - numero2;
     // alert("O resultado da subtração é = " +resultado);
     document.getElementById("resultado").value = resultado
 }
 
 function multiplicar() {
-    let numero1 = parseInt (document.getElementById("num1").value);
-    let numero2 = parseInt (document.getElementById("num2").value);
+    let numero1 = parseInt(document.getElementById("num1").value);
+    let numero2 = parseInt(document.getElementById("num2").value);
     let resultado = numero1 * numero2;
     // alert("O resultado da multiplicação é = "+resultado);
     document.getElementById("resultado").value = resultado
 }
 
 function dividir() {
-    let numero1 = parseInt (document.getElementById("num1").value);
-    let numero2 = parseInt (document.getElementById("num2").value);
+    let numero1 = parseInt(document.getElementById("num1").value);
+    let numero2 = parseInt(document.getElementById("num2").value);
     let resultado = numero1 / numero2;
     // alert("O resultado da divisão é = " +resultado);
     document.getElementById("resultado").value = resultado
@@ -35,20 +35,20 @@ function dividir() {
 
 
 function calcular(qualquerNome) {
-   
-    if (qualquerNome=="somar") {
+
+    if (qualquerNome == "somar") {
         somar();
     }
 
-    if (qualquerNome=="subtrair") {
+    if (qualquerNome == "subtrair") {
         subtrair();
     }
 
-    if (qualquerNome=="multiplicar") {
+    if (qualquerNome == "multiplicar") {
         multiplicar();
     }
 
-    if (qualquerNome=="dividir") {
+    if (qualquerNome == "dividir") {
         dividir();
     }
 

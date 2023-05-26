@@ -1,17 +1,17 @@
 var area = document.getElementById("area");
-function entrar(){
+function entrar() {
     var nome = prompt("Digite o seu nome");
-    if(nome=="" || nome==null){
+    if (nome == "" || nome == null) {
         alert("Por favor Preencher todos os Campos!");
         area.innerHTML = "Clique no botão para acessar..."
     }
 
-    else{
-        area.innerHTML = "Bem-Vindo " +nome
+    else {
+        area.innerHTML = "Bem-Vindo " + nome
     }
 }
 
-function subtrairAB(){
+function subtrairAB() {
 
     let arrayA = new Array(10);
     arrayA[0] = parseInt(document.getElementById("numero1").value);
@@ -25,8 +25,8 @@ function subtrairAB(){
     arrayA[8] = parseInt(document.getElementById("numero9").value);
     arrayA[9] = parseInt(document.getElementById("numero10").value);
     console.log(arrayA);
-    
-    
+
+
     let arrayB = new Array(10);
     arrayB[0] = parseInt(document.getElementById("numero11").value);
     arrayB[1] = parseInt(document.getElementById("numero12").value);
@@ -39,7 +39,7 @@ function subtrairAB(){
     arrayB[8] = parseInt(document.getElementById("numero19").value);
     arrayB[9] = parseInt(document.getElementById("numero20").value);
     console.log(arrayB);
-    
+
     let arrayC = new Array(10)
     arrayC[0] = (arrayA[0] - arrayB[0]);
     arrayC[1] = (arrayA[1] - arrayB[1]);

@@ -1,14 +1,14 @@
 var area = document.getElementById('area');
 
-function entrar(){
+function entrar() {
     var nome = prompt("Digite o seu nome");
 
-    if(nome=="" || nome==null){
+    if (nome == "" || nome == null) {
         alert("Por favor Preencher todos os Campos!");
         area.innerHTML = "Clique no botão para acessar...";
     }
 
-    else{
+    else {
         area.innerHTML = "Bem-Vindo, " + nome + "";
     }
 
@@ -19,7 +19,7 @@ function entrar(){
 
 }
 
-function sair(){
+function sair() {
     alert("Até mais!")
     area.innerHTML = "Você saiu!"
 }
