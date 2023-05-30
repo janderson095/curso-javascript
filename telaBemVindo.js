@@ -23,3 +23,4 @@ function sair() {
     alert("Até mais!")
     area.innerHTML = "Você saiu!"
 }
+
