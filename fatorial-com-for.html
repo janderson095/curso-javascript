@@ -5,15 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fatorial-com-for.css">
     <title>Fatorial com FOR</title>
 </head>
 
 <body>
-    <label>Qual fatorial deseja calcular?</label>
-    <input type="text" id="numero">
-    <input type="button" onclick="fatorial()" value="Resultado">
+    <fieldset class="center">
+        <legend>Calcular Fatorial no JS</legend>
+        <label>Qual fatorial deseja calcular?</label>
+        <input type="text" id="numero">
+        <input type="button" onclick="fatorial()" value="Resultado">
 
-    <div id="resultado"></div>
+        <div id="resultado"></div>
+    </fieldset>
     <script src="fatorial-com-for.js"></script>
 </body>
 
