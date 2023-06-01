@@ -6,5 +6,3 @@ function fatorial() {
     }
     document.getElementById('resultado').innerHTML = fat;
 }
-
-
