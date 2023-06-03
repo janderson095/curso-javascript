@@ -5,10 +5,12 @@ while (i < 10) {
     i++;
 }
 
-while (i < 10) {
-    if (i === 5) {
+let c = 2
+
+while (c < 10) {
+    if (c === 5) {
         break;
     }
-    console.log(i);
-    i++;
+    console.log(c);
+    c++;
 }
